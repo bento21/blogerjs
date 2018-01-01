@@ -1,0 +1,2 @@
+# blogger
+javascript untuk blogger
