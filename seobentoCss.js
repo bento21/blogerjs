@@ -7,7 +7,7 @@ $.fn.bentoCss = {
   relatedPost : '',
   resetResponsive : '',
 	response : function(){
-		$('head').append('<style type="text/css">' + this.layout + '</style>');
+		$('head title').insertAfter('<style type="text/css">' + this.layout + '</style>');
 		document.getElementsByTagName('head')[0].appendChild('<style type="text/css">' + this.layout + '</style>');
 	},  
 };$.fn.bentoCss.response();
